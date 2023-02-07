@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../assets/bg-IMAGE.png);
+    width: 100vh;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+   
+}
+a{
+    text-decoration: none;
+}
+nav{
+    width: 100vw;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.btn{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(241, 91, 116);
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+   width: 110px;
+}
+ img{
+    height: 30px;
+    
+
+ }
+ .logo{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+ }
+ul li a{
+    color: rgb(226, 226, 12);
+    font-weight: 700;
+    font-size: 20px;
+}
+.hero{
+    position: absolute;
+    top:400px;
+    left: 500px;
+    
+}
+p{
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(226, 226, 12);
+}
+#positioning{
+    position: relative;
+    top: 0;
+    left: 80px;
+    
+}
+#positioning2{
+    position: relative;
+    left: 40px;
+}
+.button{
+    position: relative;
+    left: 150px;
+    
+}
+.btn-2{
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(241, 91, 116);
+    color: white;
+    font-weight: bolder;
+    border-style: none;
+    cursor: pointer;
+}
+.btn-2:hover{
+    background-color: #fff;
+    color: black;
+    font-size: 16px;
+}
+.footer img{
+    position: relative;
+    left: 1400px;
+    width: 100px;
+    height: 100px;
+   
+}
+
